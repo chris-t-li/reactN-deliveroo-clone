@@ -1,10 +1,8 @@
-// import { StatusBar } from 'expo-status-bar';
-// import { StyleSheet, Text, View } from 'react-native';
 import HomeScreen from './screens/HomeScreen';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import RestaurantScreen from './screens/RestaurantScreen';
 
-// import { TailWindProvider } from "nativewind"
 const Stack = createNativeStackNavigator();
 
 export default function App() {
@@ -12,6 +10,7 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="Restaurant" component={RestaurantScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
