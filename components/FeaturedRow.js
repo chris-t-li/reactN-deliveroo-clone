@@ -12,7 +12,7 @@ const FeaturedRow = ({ id, title, description }) => {
         sanityClient
             .fetch(`*[_type == "featured" && _id == $id ] {..., restaurants[]->{...,dishes[]->,type-> {name}}}[0]`, { id })
             .then(data => {
-                console.log(data)
+                // console.log(data)
                 setRestaurants(data?.restaurants)
             })
             .catch(console.error)
