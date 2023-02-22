@@ -73,12 +73,6 @@ const HomeScreen = () => {
                         />
                     )
                 })}
-                <FeaturedRow
-                    key="123"
-                    id="123"
-                    title="Tasty Discounts"
-                    description="everyone's been enjoying these juicy discounts"
-                />
 
             </ScrollView>
         </SafeAreaView>
