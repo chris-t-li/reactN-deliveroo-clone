@@ -4,6 +4,7 @@ Food Delivery Front End Clone
 React Native Application
 
 Technologies used:
+* JavaScript
 * React / React Native / Redux
 * TailWindCSS / NativeWind
 * Expo
