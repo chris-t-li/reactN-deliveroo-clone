@@ -18,3 +18,5 @@ i
 ```
 
 Requires XCode to view in iOS simulator
+
+For educational purposes only
